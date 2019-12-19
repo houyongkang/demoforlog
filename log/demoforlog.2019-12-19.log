@@ -1,0 +1,17 @@
+2019-12-19 14:42:47.637 [main] INFO  com.example.demo.DemoforlogApplication - Starting DemoforlogApplication on DESKTOP-0I5TB1I with PID 8504 (E:\Demo\demoforlog\target\classes started by kang in E:\Demo\demoforlog)
+2019-12-19 14:42:47.640 [main] INFO  com.example.demo.DemoforlogApplication - No active profile set, falling back to default profiles: default
+2019-12-19 14:42:49.141 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-19 14:42:49.148 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-19 14:42:49.149 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-19 14:42:49.149 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-19 14:42:49.223 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-19 14:42:49.223 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1545 ms
+2019-12-19 14:42:49.331 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-19 14:42:49.425 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-19 14:42:49.443 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-19 14:42:49.445 [main] INFO  com.example.demo.DemoforlogApplication - Started DemoforlogApplication in 2.169 seconds (JVM running for 2.523)
+2019-12-19 14:42:54.037 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-19 14:42:54.037 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-19 14:42:54.040 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2019-12-19 14:42:54.055 [http-nio-8080-exec-1] INFO  com.example.demo.HelloController - 调用了hello接口
+2019-12-19 14:42:54.055 [http-nio-8080-exec-1] ERROR com.example.demo.HelloController - 测试error单独输出
